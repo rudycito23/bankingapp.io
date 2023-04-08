@@ -15,7 +15,7 @@ body {
 }
 
 .amount-container {
-  width: 10%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,14 +71,49 @@ body {
 }
 
 .amount-input-container {
+  width: 50%;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
+}
+
+@media (width < 400px) {
+    .amount-input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .amount-input {
   display: none;
   border-radius: 0.5rem;
+}
+
+.selection-menu {
+    display: none;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .dropdown-disabled {
+    color: gray;
+  }
+  
+  .dropdown-deposit {
+    color: green;
+  }
+  
+  .dropdown-withdrawal {
+    color: #ff176b;
+  }
+
+  @media (width < 400px) {
+    .selection-menu {
+        margin: 1rem auto 1rem auto;
+        border-color: #252525;
+    }
 }
 
 th {
@@ -89,24 +124,6 @@ th {
 td {
   color: #fff;
   font-size: 1.5rem;
-}
-
-.selection-menu {
-  display: none;
-  margin-left: 1rem;
-  border-radius: 0.5rem;
-}
-
-.dropdown-disabled {
-  color: gray;
-}
-
-.dropdown-deposit {
-  color: green;
-}
-
-.dropdown-withdrawal {
-  color: #ff176b;
 }
 
 .delete-button {
@@ -136,9 +153,9 @@ td {
 }
 
 .positive {
-    color: green;
+  color: green;
 }
 
 .negative {
-    color:#ff176b;
+  color: #ff176b;
 }
