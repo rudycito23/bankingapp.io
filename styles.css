@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-title {
+  margin: 2rem auto 2rem auto;
+  text-align: center;
+}
+
+.amount-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto 2rem auto;
+}
+
+.amount-label {
+  margin: 0;
+}
+
+.total-amount {
+  font-weight: bold;
+}
+
+.transaction-input,
+.transaction-input:active {
+  border-color: #ff176b;
+}
+
+.table-container {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #252525;
+}
+
+.addTrans-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #ff176b !important;
+  margin: 2rem auto;
+}
+
+.btn-primary:focus {
+  background-color: #ff176b !important;
+  outline: none;
+}
+
+.btn-primary:hover {
+  color: #ff176b !important;
+  background-color: #fff !important;
+  border-color: #ff176b !important;
+}
+
+.addTrans-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.amount-input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.amount-input {
+  display: none;
+  border-radius: 0.5rem;
+}
+
+th {
+  color: #00b6ff;
+  font-size: 2rem;
+}
+
+td {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.selection-menu {
+  display: none;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+}
+
+.dropdown-disabled {
+  color: gray;
+}
+
+.dropdown-deposit {
+  color: green;
+}
+
+.dropdown-withdrawal {
+  color: #ff176b;
+}
+
+.delete-button {
+  width: auto;
+  background-color: #ff176b;
+  border-radius: 0.5rem;
+}
+
+.delete-button:hover {
+  width: auto;
+  color: #ff176b;
+  background-color: #fff;
+  border-color: #ff176b;
+  border-radius: 0.5rem;
+}
+
+.delete-all-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.btn-secondary:hover {
+  color: #ff176b !important;
+  background-color: #fff !important;
+  border-color: #ff176b !important;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color:#ff176b;
+}
