@@ -35,10 +35,10 @@ body {
   border-color: #ff176b;
 }
 
-.table-container {
+.table-responsive {
   width: 50%;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   background-color: #252525;
 }
 
