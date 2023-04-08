@@ -83,12 +83,12 @@ body {
 
 th {
   color: #00b6ff;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 td {
   color: #fff;
-  font-size: 2rem;
+  font-size: .75rem;
 }
 
 .selection-menu {
