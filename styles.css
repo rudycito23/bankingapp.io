@@ -109,7 +109,7 @@ body {
     color: #ff176b;
   }
 
-  @media (width < 400px) {
+  @media (width < 580px) {
     .selection-menu {
         margin: 1rem auto 1rem auto;
         border-color: #252525;
