@@ -77,7 +77,7 @@ body {
   margin: 0 auto 2rem auto;
 }
 
-@media (width < 400px) {
+@media (width < 580px) {
     .amount-input-container {
         display: flex;
         flex-direction: column;
